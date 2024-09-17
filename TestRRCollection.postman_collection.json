@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "d66b7cbb-648d-4a74-9d06-6752014c68da",
+		"name": "TestRRCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38391203"
+	},
+	"item": [
+		{
+			"name": "GetCountryDetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/name/india",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"name",
+						"india"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
